@@ -23,7 +23,7 @@ _2018-present: Cloud Architect and Software Delivery Engineer_
 
 > Lightspeed/Kantar era: new platform - new identity
 
-I was responsible of defining and implementing our "new ways of working" cloud architecture and software delivery platform. I focused on predictability, accessibility and availability. This involved defining our selection of AWS features to support our new serverless and stateful components, including infrastructure and software delivery pipelines. I worked embedded in teams staggered over the year to drive the adoption of the new platform and ensure the policies are followed to have a successful continuous deployment model.
+I was responsible for defining and implementing our "new ways of working" cloud architecture and software delivery platform. I focused on predictability, accessibility and availability. This involved defining our selection of AWS features to support our new serverless and stateful components, including infrastructure and software delivery pipelines. I worked embedded in teams staggered over the year to drive the adoption of the new platform and ensure the policies are followed to have a successful continuous deployment model.
 
 * Infrastructure as Code - serverless.com + AWS CloudFormation
 * Build, Test Automation & Deployment pipeline - AWS CodePipeline, CodeBuild
