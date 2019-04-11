@@ -1,75 +1,76 @@
-# Peter Czimmermann
+# Personal
 
-## Latest
+* **Name** :star: Peter Czimmermann (`xczimi`)
+* **Birth** :baby: 1979, Hungary
+* **Address** :star: Vancouver, BC, Canada
+* **E-mail** :email: xczimi@gmail.com
+* **Nationality** :star: Hungarian
+* **Languages** :star: English (fluent), Hungarian (native), German (basic)
 
-### Continuous Integration and Continuous Deployment platform design and implementation
+_Code wins arguments_
+
+Experienced Senior Developer Team Lead with a demonstrated history of working in the market research industry. Strong engineering professional skilled in Agile Methodologies, Scala, PHP, Python, Golang, SQL/NoSQL Databases, CI/CD tooling, microservices, docker and AWS adoption. Passionate advocate of establishing best practices to reliable software delivery via build, test and deployment automation.
+
+# Experience
+
+## Lightspeed Research / Global Market Insite
+
+_2000-present_
+
+### CI/CD platform design and implementation for AWS
+
+_2018-present: Cloud Architect and Software Delivery Engineer_
+
+Continuous Integration and Continuous Deployment
 
 * Infrastructure as Code - serverless.com + AWS CloudFormation
 * Build, Test Automation & Deployment pipeline - AWS CodePipeline, CodeBuild
 * Stateful applications/services with AWS ECS, docker
 * Stateless services with AWS Lambda (Python)
 
-### Hobby projects
+### Microservices - backend & integration solutions - cloud adoption
 
-* Custom membership system & website with payment integration - PHP Symfony, MongoDB, Stripe - https://vancouersouthsiders.ca
-* Research Platofrm with mobile apps for academia - PHP Symfony, Android, iOS - https://mlabresearch.org
-* Multicall buzzer - Google app engine (GoLang), Twilio
-
-## Past
-
-### Microservices - backend & integration solutions for market research applications
+_2013-2017: Architect & Technical Lead_
 
 * Scala - Play framework based microservices - RESTful APIs - with Couchbase backend
 * Transition/migration into AWS ECS from hosted data center
 * CI - Build, test automation, config management and deploy with jenkins, puppet and BDD
 
-### Market research platform
+### Market research applications and development tooling
+
+_2004-2017: Team Lead_
 
 * Web application(s) external and internal - LAMP stack
-* Asynchronous message processing using Q4M
+* Asynchronous message processing - Q4M
 * Custom replication solution from Couchbase into DataWarehouse - in PHP
+* Behavior Driven Development adoption - behat, Selenium
 * Continuous Integration adoption - phpUnderControl, PHPUnit
+* Fully automated distributed build, deployment and configuration management system for LAMP - GNU make, Red Hat Package Manager (RPM) (cca 2007)
 
-## Oldschool
+_2000-2003: Software Developer_
 
-* Automated distributed deployment system for LAMP - GNU make, Red Hat Package Manager (RPM) (cca 2007)
-* High volume mailmerge engine for survey invitations- PHP (direct SMTP) (cca 2002)
-* Billing system for public schools - Turbo Pascal (cca 1995)
+* Sampling engine and user interface - `PHP, JavaScript`
+* High volume mailmerge engine for survey invitations - `PHP, SMTP`
 
-# Welcome to GitHub Pages
+## Vancouver Southsiders - volunteer
 
-You can use the [editor on GitHub](https://github.com/xczimi/xczimi.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+_2011-present_
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* Custom membership system & website with payment integration - PHP Symfony, MongoDB, Stripe - https://vancouersouthsiders.ca
 
-### Markdown
+## MLab Research
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+_2013-2016_
 
-```markdown
-Syntax highlighted code block
+Designed, implementedand delivered a full software project: research platform for academia (University of Florida)
+Includes the administrative backend, frontend with Android and iOS apps for sensory data collection
 
-# Header 1
-## Header 2
-### Header 3
+https://mlabresearch.org
 
-- Bulleted
-- List
+`PHP Symfony, MongoDB, Android, iOS`
 
-1. Numbered
-2. List
+## Miscellaneous
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xczimi/xczimi.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* _2017_ Small bugfix for AWS `ecs cli` https://github.com/aws/amazon-ecs-cli - `golang` 
+* _2009_ Multicall buzzer - `Google app engine (GoLang), Twilio` 
+* _1995_ Billing system for public schools - `Turbo Pascal` 
