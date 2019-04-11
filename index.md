@@ -73,13 +73,13 @@ Currently serving as Club Secretary and President of this volunteer organization
 
 https://vancouersouthsiders.ca
 
-* Custom membership system and website with payment integration - `PHP Symfony, MongoDB, Paypal, Stripe` 
+* Custom membership system and website with payment integration - `PHP Symfony, MongoDB, Paypal, Stripe`
 
 ## MLab Research
 
 _2013-2016_
 
-Designed, implementedand delivered a full software project: research platform for academia (University of Florida)
+Designed, implemented and delivered a full software project: research platform for academia - University of Florida.
 Includes the administrative backend, frontend with Android and iOS apps for sensory data collection
 
 https://mlabresearch.org
@@ -88,6 +88,6 @@ https://mlabresearch.org
 
 ## Miscellaneous
 
-* _2017_ Small bugfix for AWS `ecs cli` https://github.com/aws/amazon-ecs-cli - `golang` 
-* _2009_ Multicall buzzer - `Google app engine (GoLang), Twilio` 
-* _1995_ Billing system for public schools - `Turbo Pascal` 
+* _2017_ Small bugfix for AWS `ecs cli` https://github.com/aws/amazon-ecs-cli - `golang`
+* _2009_ Multicall buzzer - `Google app engine (GoLang), Twilio`
+* _1995_ Billing system for public schools - `Turbo Pascal`
