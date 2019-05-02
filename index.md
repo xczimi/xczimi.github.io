@@ -10,9 +10,21 @@ _Code wins arguments_
 
 Experienced Senior Developer Team Lead with a demonstrated history of working in the market research industry. Strong engineering professional skilled in Agile Methodologies, Scala, PHP, Python, Golang, SQL/NoSQL Databases, CI/CD tooling, microservices, serverless, docker and AWS adoption. Passionate advocate of establishing best practices to reliable software delivery via build, test and deployment automation.
 
+# Skills Summary
+
+* Software: `AWS, serverless.com, docker, Play (Scala), Zend (PHP), jenkins, puppet, behat, Selenium, cruisecontrol, Paypal, Stripe, GNU Make, rpmbuild`
+* Languages: `Python, Scala, PHP, JavaScript, golang`
+* Project Management Tools: `JIRA`
+* Databases `RDS Aurora, DynamoDB, Couchbase, MySQL, MongoDb, Postgres, MsSQL`
+* Hardware: n/a
+* Applications: Wide range of market research tools, panel and project management system, microservices based integration platform.
+* Industries: `Market Research, Administrative`
+* Operating Systems: `Linux, MacOS, Windows (cygwin), Android, iOS`
+* Methodologies: `Scrum, Agile`
+
 # Experience
 
-## Lightspeed Research / Global Market Insite
+## Kantar / Lightspeed Research / Global Market Insite
 
 ### CI/CD platform design and implementation for AWS
 
