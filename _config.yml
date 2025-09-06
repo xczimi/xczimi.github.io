@@ -1,1 +1,31 @@
 theme: jekyll-theme-minimal
+
+# Site settings
+title: Peter Czimmermann
+description: Senior Developer Team Lead - Cloud Architect & Software Delivery Engineer
+author: Peter Czimmermann
+email: xczimi@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# GitHub Pages / Jekyll settings
+github_username: xczimi
+linkedin_username: xczimi
+
+# SEO and social
+url: "https://xczimi.github.io"
+baseurl: ""
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
