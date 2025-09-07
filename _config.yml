@@ -15,28 +15,28 @@ website: https://xczimi.github.io
 darkmode: false
 
 # Social links
-# twitter_username: 
+# twitter_username: xczimi
 github_username: xczimi
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
-facebook_username: xczimi
+# facebook_username: xczimi
 # flickr_username: jekyll
-instagram_username: xczimi
+# instagram_username: xczimi
 linkedin_username: xczimi
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: 
-googleplus_username: +xczimi
+# googleplus_username: +xczimi
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 additional_links:
-- title: Vancouver Southsiders
+- title: SensorUp
   icon: fas fa-globe
+  url: https://sensorup.com
+- title: Vancouver Southsiders
+  icon: far fa-futbol
   url: https://vancouversouthsiders.ca
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -50,22 +50,27 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, I'm Peter Czimmermann (`@xczimi`), an experienced Software Architect with a demonstrated history of delivering on scalable, reliable and maintainable software solutions.
 
-  _Code wins arguments._
-
   Strong engineering professional skilled in Agile Methodologies, Scala, PHP, Python, Golang, SQL/NoSQL Databases, CI/CD tooling, microservices, serverless, docker and AWS adoption.
   
   I'm passionate about establishing best practices to reliable software delivery via build, test and deployment automation.
 
-  I am most skilled in: <mark>AWS</mark>, <mark>Scala</mark>, <mark>Python</mark>, <mark>Docker</mark>, and <mark>CI/CD</mark>
+  _Code wins arguments._
+
+  I am most skilled in: <mark>Architecture</mark>, <mark>AWS</mark>, <mark>CI/CD</mark>.
 
 content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: SensorUp Inc
+        caption: 2019 - present
+        description: | # this will include new lines to allow paragraphs
+          All the things.
+      - layout: left
         title: Kantar / Lightspeed Research
         sub_title: Cloud Architect and Software Delivery Engineer
-        caption: 2018 - Present
+        caption: 2018 - 2019
         quote: >
           Lightspeed/Kantar era: new platform - new identity
         description: | # this will include new lines to allow paragraphs
@@ -103,7 +108,7 @@ content:
           • Continuous Integration adoption - <mark>phpUnderControl</mark>, <mark>PHPUnit</mark>
           • Fully automated distributed build, deployment and configuration management system - <mark>GNU make</mark>, <mark>RPM</mark>
 
-  - title: Projects # Title for the section
+  - title: Other Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
@@ -151,7 +156,7 @@ content:
   - title: Skills Summary
     layout: text
     content: | # this will include new lines to allow paragraphs
-      **Languages:** <mark>Python</mark>, <mark>Scala</mark>, <mark>PHP</mark>, <mark>JavaScript</mark>, <mark>Golang</mark>
+      **Languages:** <mark>NodeJS</mark>, <mark>Python</mark>, <mark>Scala</mark>, <mark>PHP</mark>, <mark>JavaScript</mark>, <mark>Golang</mark>
       
       **Cloud & DevOps:** <mark>AWS</mark>, <mark>serverless.com</mark>, <mark>Docker</mark>, <mark>Jenkins</mark>, <mark>Puppet</mark>
       
@@ -159,11 +164,9 @@ content:
       
       **Frameworks:** <mark>Play (Scala)</mark>, <mark>Symfony (PHP)</mark>, <mark>Lambda</mark>, <mark>API Gateway</mark>
       
-      **Operating Systems:** <mark>Linux</mark>, <mark>MacOS</mark>, <mark>Windows</mark>, <mark>Android</mark>, <mark>iOS</mark>
-      
       **Methodologies:** <mark>Scrum</mark>, <mark>Agile</mark>, <mark>BDD</mark>, <mark>CI/CD</mark>
       
-      **Industries:** Market Research, Administrative, Cloud Architecture
+      **Industries:** Oil & Gas, Energy, IoT, Methane, Market Research, Administrative, Cloud Architecture
       
       **Languages:** English (fluent), Hungarian (native), German (basic)
 
