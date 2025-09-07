@@ -1,31 +1,182 @@
-theme: jekyll-theme-minimal
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
 
-# Site settings
-title: Peter Czimmermann
-description: Senior Developer Team Lead - Cloud Architect & Software Delivery Engineer
-author: Peter Czimmermann
+# Content configuration version
+version: 2
+
+# Personal info
+name: Peter Czimmermann
+title: Software Architect
 email: xczimi@gmail.com
+website: https://xczimi.github.io
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: 
+github_username: xczimi
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+facebook_username: xczimi
+# flickr_username: jekyll
+instagram_username: xczimi
+linkedin_username: xczimi
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: 
+googleplus_username: +xczimi
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: Vancouver Southsiders
+  icon: fas fa-globe
+  url: https://vancouversouthsiders.ca
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, I'm Peter Czimmermann (`@xczimi`), an experienced Software Architect with a demonstrated history of delivering on scalable, reliable and maintainable software solutions.
+
+  _Code wins arguments._
+
+  Strong engineering professional skilled in Agile Methodologies, Scala, PHP, Python, Golang, SQL/NoSQL Databases, CI/CD tooling, microservices, serverless, docker and AWS adoption.
+  
+  I'm passionate about establishing best practices to reliable software delivery via build, test and deployment automation.
+
+  I am most skilled in: <mark>AWS</mark>, <mark>Scala</mark>, <mark>Python</mark>, <mark>Docker</mark>, and <mark>CI/CD</mark>
+
+content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Kantar / Lightspeed Research
+        sub_title: Cloud Architect and Software Delivery Engineer
+        caption: 2018 - Present
+        quote: >
+          Lightspeed/Kantar era: new platform - new identity
+        description: | # this will include new lines to allow paragraphs
+          I was responsible for defining and implementing our "new ways of working" cloud architecture and software delivery platform. I focused on predictability, accessibility and availability. This involved defining our selection of AWS features to support our new serverless and stateful components, including infrastructure and software delivery pipelines.
+          
+          • Infrastructure as Code - <mark>serverless.com</mark>, <mark>AWS CloudFormation</mark>
+          • Build, Test Automation & Deployment pipeline - <mark>AWS CodePipeline</mark>, <mark>CodeBuild</mark>
+          • Stateful applications/services - <mark>AWS ECS</mark>, <mark>docker</mark>
+          • Stateless services - <mark>AWS Lambda (Python)</mark>, <mark>SNS</mark>, <mark>API Gateway</mark>
+
+      - layout: left
+        title: Kantar / Lightspeed Research
+        sub_title: Architect & Technical Lead
+        caption: 2013 - 2017
+        quote: >
+          GMI/Lightspeed era: sale and merge - microservices & cloud adoption
+        description: | # this will include new lines to allow paragraphs
+          Due to the merge we needed to integrate existing monolith systems as well as open ourselves for new possibilities. I led a team to bootstrap a microservices architecture to serve as the backbone of our core systems as well as provide integration solutions via RESTful APIs.
+          
+          • <mark>Scala</mark> - Play framework based microservices - RESTful APIs - <mark>Couchbase</mark>
+          • Transition/migration into AWS ECS from hosted data center - <mark>docker</mark>, <mark>ECS</mark>, <mark>CloudFormation</mark>
+          • CI - Build, test automation, config management and deploy - <mark>jenkins</mark>, <mark>puppet</mark>, <mark>BDD</mark>
+
+      - layout: left
+        title: Global Market Insite (GMI)
+        sub_title: Team Lead
+        caption: 2004 - 2017
+        quote: >
+          GMI era: growth, consolidation, sale
+        description: | # this will include new lines to allow paragraphs
+          I led teams to implement and deliver multiple panel management solutions operated in a SaaS model. Spearheaded the adoption of Continuous Integration, test automation through mentoring and sensible task assignments.
+          
+          • Web applications - <mark>LAMP stack</mark>
+          • Behavior Driven Development adoption - <mark>behat</mark>, <mark>Selenium</mark>
+          • Continuous Integration adoption - <mark>phpUnderControl</mark>, <mark>PHPUnit</mark>
+          • Fully automated distributed build, deployment and configuration management system - <mark>GNU make</mark>, <mark>RPM</mark>
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Vancouver Southsiders
+        link: https://vancouversouthsiders.ca
+        additional_links:
+          - title: vancouversouthsiders.ca
+            icon: fas fa-globe
+            url: https://vancouversouthsiders.ca
+        caption: 2011 - Present
+        quote: >
+          President and Secretary of Vancouver Whitecaps' largest supporter group
+        description: | # this will include new lines to allow paragraphs
+          Currently serving as Club Secretary and President of this volunteer organization. Over the years I have grown to be the nucleus of our leadership, representing the group in the media and in negotiations with the club.
+          
+          • Custom membership system with payment integration - <mark>PHP Symfony</mark>, <mark>MongoDB</mark>, <mark>Paypal</mark>, <mark>Stripe</mark>
+
+      - layout: top-middle
+        title: MLab Research
+        link: https://mlabresearch.org
+        caption: 2013 - 2016
+        additional_links:
+          - title: mlabresearch.org
+            icon: fas fa-globe
+            url: https://mlabresearch.org
+        quote: >
+          Research platform for academia - University of Florida
+        description: | # this will include new lines to allow paragraphs
+          Designed, implemented and delivered a full software project: research platform for academia. Includes the administrative backend, frontend with Android and iOS apps for sensory data collection.
+          
+          • <mark>PHP Symfony</mark>, <mark>MongoDB</mark>, <mark>Android</mark>, <mark>iOS</mark>
+
+      - layout: top-middle
+        title: Open Source Contributions
+        additional_links:
+          - title: AWS ECS CLI
+            icon: fab fa-github
+            url: https://github.com/aws/amazon-ecs-cli
+        description: | # this will include new lines to allow paragraphs
+          Various contributions to open source projects and personal projects:
+          
+          • 2017: Small bugfix for AWS <mark>ecs cli</mark> - <mark>golang</mark>
+          • 2009: Multicall buzzer - <mark>Google App Engine (GoLang)</mark>, <mark>Twilio</mark>
+
+  - title: Skills Summary
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      **Languages:** <mark>Python</mark>, <mark>Scala</mark>, <mark>PHP</mark>, <mark>JavaScript</mark>, <mark>Golang</mark>
+      
+      **Cloud & DevOps:** <mark>AWS</mark>, <mark>serverless.com</mark>, <mark>Docker</mark>, <mark>Jenkins</mark>, <mark>Puppet</mark>
+      
+      **Databases:** <mark>RDS Aurora</mark>, <mark>DynamoDB</mark>, <mark>Couchbase</mark>, <mark>MySQL</mark>, <mark>MongoDB</mark>, <mark>PostgreSQL</mark>
+      
+      **Frameworks:** <mark>Play (Scala)</mark>, <mark>Symfony (PHP)</mark>, <mark>Lambda</mark>, <mark>API Gateway</mark>
+      
+      **Operating Systems:** <mark>Linux</mark>, <mark>MacOS</mark>, <mark>Windows</mark>, <mark>Android</mark>, <mark>iOS</mark>
+      
+      **Methodologies:** <mark>Scrum</mark>, <mark>Agile</mark>, <mark>BDD</mark>, <mark>CI/CD</mark>
+      
+      **Industries:** Market Research, Administrative, Cloud Architecture
+      
+      **Languages:** English (fluent), Hungarian (native), German (basic)
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
 
 # Build settings
-markdown: kramdown
-highlighter: rouge
-permalink: pretty
+remote_theme: sproogen/resume-theme
 
-# GitHub Pages / Jekyll settings
-github_username: xczimi
-linkedin_username: xczimi
+sass:
+  sass_dir: _sass
+  style: compressed
 
-# SEO and social
-url: "https://xczimi.github.io"
-baseurl: ""
-
-# Exclude files from processing
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - README.md
+plugins:
+ - jekyll-seo-tag
