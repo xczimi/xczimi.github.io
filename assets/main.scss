@@ -1,0 +1,11 @@
+---
+---
+
+@import 'modern-resume-theme';
+
+// Custom overrides to match the dotcom website gradient background
+body {
+  background: linear-gradient(135deg, #8bb5d1 0%, #6a9bd1 50%, #5a8bc4 100%) !important;
+  background-attachment: fixed !important;
+  min-height: 100vh !important;
+}
