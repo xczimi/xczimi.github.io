@@ -4,32 +4,28 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Jekyll-based GitHub Pages site serving as a personal resume/portfolio for Peter Czimmermann (`xczimi`). The site uses the `jekyll-theme-minimal` theme and contains a single main content page.
-
-## Architecture
-
-- **Jekyll Static Site**: Uses GitHub Pages with Jekyll for automatic deployment
-- **Theme**: `jekyll-theme-minimal` configured in `_config.yml`
-- **Content**: Single-page resume in `index.md` with markdown formatting
-- **Deployment**: Automatic via GitHub Pages when pushing to `master` branch
+Jekyll-based GitHub Pages site serving as the resume of Peter Czimmermann (`xczimi`) at https://xczimi.github.io. It uses the `sproogen/resume-theme` remote theme, so all resume content lives in `_config.yml`, not in markdown pages.
 
 ## Key Files
 
-- `_config.yml`: Jekyll configuration with theme specification
-- `index.md`: Main resume content with personal information, skills, and experience
-- Repository serves content at `https://xczimi.github.io`
+- `_config.yml`: all resume content (about text, experience, projects, skills) plus theme settings. Edit this to change the resume.
+- `index.md`: front matter only; the theme renders the page from `_config.yml`.
+- `assets/main.scss`, `images/`: styling overrides and the profile picture.
+- `Gemfile`: `github-pages` plus `webrick` (needed to run `jekyll serve` on Ruby 3).
 
-## Content Structure
+## Content Rules
 
-The `index.md` file contains structured resume sections:
-- Personal information and contact details
-- Skills summary with technologies and tools
-- Experience section with detailed work history (Kantar/Lightspeed Research, Vancouver Southsiders, MLab Research)
-- Chronological career progression from 2000 to present
+- No compensation figures, no customer names, no names of colleagues or direct reports, no internal codenames. Keep industry-level descriptions.
+- Plain first-person voice in `about_content`; impersonal past tense in experience entries.
+- Use numbers only where they size something a reader would otherwise have to guess. No activity counts (PRs, releases, documents written).
 
-## Development Notes
+## Local Preview
 
-- No build process required - GitHub Pages handles Jekyll compilation automatically
-- Changes to `master` branch deploy immediately to live site
-- Markdown content is rendered using Jekyll's markdown processor
-- Theme provides minimal styling suitable for professional resume presentation
+GitHub Pages builds the site on push to `master`, so no local build is required. For a local preview with a mise-managed Ruby:
+
+```
+mise exec ruby@3.3 -- bundle install
+mise exec ruby@3.3 -- bundle exec jekyll serve
+```
+
+Jekyll does not reload `_config.yml` automatically; restart the server after editing it.

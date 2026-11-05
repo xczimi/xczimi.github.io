@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Peter Czimmermann
-title: Software Architect
+title: Chief Architect
 email: xczimi@gmail.com
 website: https://xczimi.com
 
@@ -48,67 +48,114 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I'm Peter Czimmermann (`@xczimi`), an experienced Software Architect with a demonstrated history of delivering on scalable, reliable and maintainable software solutions.
+  Chief Architect at SensorUp in Vancouver. I joined in 2019 as one of a handful of engineers and grew with the company into the person who sets its technical direction, from a single IoT application to a platform that helps energy and heavy industry measure and reduce emissions.
 
-  Strong engineering professional skilled in Agile Methodologies, Scala, PHP, Python, Golang, SQL/NoSQL Databases, CI/CD tooling, microservices, serverless, docker and AWS adoption.
-  
-  I'm passionate about establishing best practices to reliable software delivery via build, test and deployment automation.
+  Sold my first software at fourteen, a program school administrators used, and have been building software ever since. Before SensorUp came almost twenty years at GMI, later Lightspeed Research and Kantar, growing from developer to team lead to architect.
 
-  _Code wins arguments._
+  These days the work is mostly about people: coaching a small team of architects so they can carry the architecture for their own squads, working with the engineering leads so decisions get made close to the work, and spending a good part of every week reviewing, unblocking and mentoring. Still contributing code, because it keeps me honest.
 
-  I am most skilled in: <mark>Architecture</mark>, <mark>AWS</mark>, <mark>CI/CD</mark>.
+  The software industry is in the middle of its most disruptive shift in a generation, and working through it is a big part of the job. Over the last year that meant leading SensorUp's move to AI coding agents: picking the tools, setting the ground rules and the budget, training the whole team in person, and changing how software gets delivered so the team can move fast without losing control.
+
+  Outside work, soccer is my passion, and for the past fifteen years that has meant the Vancouver Southsiders, the Whitecaps' largest supporter group.
+
+  I am most skilled in: <mark>Architecture</mark>, <mark>AI adoption</mark>, <mark>AWS</mark>, <mark>Software delivery</mark>.
 
 content:
+  - title: Leading AI Adoption # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: AI adoption and agentic engineering
+        sub_title: SensorUp Inc
+        caption: 2025 – present
+        quote: >
+          A whole engineering team working with coding agents every day
+        description: | # this will include new lines to allow paragraphs
+          Owned the engineering AI tooling programme end to end. Ran the evaluation that selected Claude Code over the alternatives, own its budget and spend controls, wrote the usage and data-handling guidance for what code and data may be sent to AI tools, and tracked adoption and outcomes for leadership. Built a 20-week plan to grow the team's AI capability and a recurring company-wide show-and-tell where people demonstrate what they build with AI.
+
+          Designed and delivered an in-person, hands-on workshop across SensorUp's Vancouver, Calgary and Toronto offices in April 2026. Every engineer who attended set up the tooling and ran real tickets through it in the room. The aim was as much confidence as skill, so that the change in the profession felt learnable rather than threatening.
+
+          Built the internal Claude Code plugin tailored to SensorUp's stack (a GraphQL federation skill, a Terraform reviewer, workspace setup and release commands, review-gate agents, MCP servers, and a Claude Desktop bundle for non-engineers) and the process around it: decisions written as architecture decision records with an automated lifecycle, short challenge sessions to settle open questions, and reviews routed by code ownership so that agent-assisted work merges safely without waiting on the architect. This is how the full-stack rebuild below reached partner testing in six months.
+
+          • Governance: tool evaluation and selection, budget and spend controls, usage and data-handling guidance, adoption reporting
+          • Enablement: three-city hands-on workshop, 20-week capability plan, company-wide AI show-and-tell
+          • Tooling: Claude Code plugin authoring (skills, agents, hooks, MCP servers), review-gate agents
+          • Process: architecture decision records as the source of truth for people and agents, ownership-routed reviews
+
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: SensorUp Inc
-        caption: 2019 - present
-        description: | # this will include new lines to allow paragraphs
-          All the things.
-      - layout: left
-        title: Kantar / Lightspeed Research
-        sub_title: Cloud Architect and Software Delivery Engineer
-        caption: 2018 - 2019
+        sub_title: Chief Architect
+        caption: October 2026 – present
         quote: >
-          Lightspeed/Kantar era: new platform - new identity
+          SensorUp builds emissions and decarbonisation software for energy and heavy industry, backed by Climate Investment
         description: | # this will include new lines to allow paragraphs
-          I was responsible for defining and implementing our "new ways of working" cloud architecture and software delivery platform. I focused on predictability, accessibility and availability. This involved defining our selection of AWS features to support our new serverless and stateful components, including infrastructure and software delivery pipelines.
-          
-          • Infrastructure as Code - <mark>serverless.com</mark>, <mark>AWS CloudFormation</mark>
-          • Build, Test Automation & Deployment pipeline - <mark>AWS CodePipeline</mark>, <mark>CodeBuild</mark>
-          • Stateful applications/services - <mark>AWS ECS</mark>, <mark>docker</mark>
-          • Stateless services - <mark>AWS Lambda (Python)</mark>, <mark>SNS</mark>, <mark>API Gateway</mark>
+          SensorUp brings field alerts and sensor data into one operating record, where AI agents sort the signals and propose the next step while people keep the decision. Its products cover methane, carbon-credit and greenhouse-gas reporting, and its current platform is SensorUp Studio, which lets customers tailor those workflows without new software. The company is backed by Climate Investment, the decarbonisation investor founded by the Oil and Gas Climate Initiative.
+
+          Lead the Architecture and Platform teams and the IT, security and compliance function, six people in total. Own the architecture decision log and specification process that every squad builds against, review cross-cutting designs, and resolve pattern conflicts between squads. Grew two tech leads into acting architects for their own squads. Own the 2026–2027 annual engineering initiative to turn agentic development into a repeatable product-delivery pipeline.
 
       - layout: left
-        title: Kantar / Lightspeed Research
-        sub_title: Architect & Technical Lead
-        caption: 2013 - 2017
-        quote: >
-          GMI/Lightspeed era: sale and merge - microservices & cloud adoption
+        title: SensorUp Inc
+        sub_title: Senior Architect
+        caption: 2021 – 2026
         description: | # this will include new lines to allow paragraphs
-          Due to the merge we needed to integrate existing monolith systems as well as open ourselves for new possibilities. I led a team to bootstrap a microservices architecture to serve as the backbone of our core systems as well as provide integration solutions via RESTful APIs.
-          
-          • <mark>Scala</mark> - Play framework based microservices - RESTful APIs - <mark>Couchbase</mark>
-          • Transition/migration into AWS ECS from hosted data center - <mark>docker</mark>, <mark>ECS</mark>, <mark>CloudFormation</mark>
-          • CI - Build, test automation, config management and deploy - <mark>jenkins</mark>, <mark>puppet</mark>, <mark>BDD</mark>
+          In 2026, led the design and rebuild of SensorUp's full stack as SensorUp Studio, a multitenant platform, from prototype to the first partner testing round in six months. Wrote the architecture down as decision records covering tenancy, isolation, identity, composition, authorization and cross-module links. Designed and shipped the identity and access layer end to end: sign-in, tenants, invitations, roles, and authorization checked on every write.
+
+          From 2021 to 2025, owned the architecture of a federated, serverless estate of about twenty domain services and carried every fleet-wide change through it as coordinated, backward-compatible rollouts: the standard deployment contract, the security-hardened infrastructure migration, runtime and framework upgrades, and the engineering controls for SOC 2. Built the deployment tooling the team ships through and the cross-account data pipelines that enterprise energy customers run on. Designed the configurable asset model behind the methane and carbon products. Rebuilt the release pipeline so each product stream deploys independently, retiring a separate production deployment repository and taking operational load off other teams. Started the engineering knowledge base, and covered part of the VP Engineering role for several months in 2025.
+
+          • Architecture: Apollo GraphQL federation, CASL authorization, central auth service, event-driven services on AWS Lambda, DynamoDB single-table design, change streams exposed as queryable datasets
+          • Delivery: GitHub Actions, Spacelift (Terraform / OpenTofu), AWS CodeArtifact, ECR, per-stream deployments, EU region enablement
+          • Data and integration: data catalog and task-runner platform, cross-account S3 / SFTP / DataSync movement, Dagster, OGC SensorThings
+          • Security and compliance: SOC 2 preparation, trust-policy hardening, backup and restore testing
+
+      - layout: left
+        title: SensorUp Inc
+        sub_title: Software Architect
+        caption: 2019 – 2021
+        description: | # this will include new lines to allow paragraphs
+          Joined a small team and designed the AWS infrastructure blueprints that every customer deployment is built from, the Explorer web application's API, and the SensorHub Android app that collects field sensor data. Introduced Apollo GraphQL federation as the integration backbone across a growing set of services, with JWT validation and user and permission propagation to every subgraph.
+
+          • Infrastructure as code: Terraform modules, Serverless Framework, per-customer deployment configuration, automated DNS and certificate bootstrap
+          • Identity: Cognito user pools, IoT Core policies, CASL authorization propagation
+          • Services and mobile: Node.js Lambda subgraphs, API Gateway, DynamoDB, geofence rules engine; Android (Kotlin / Java) GPS, Fitbit and raw-sensor telemetry
+
+      - layout: left
+        title: GMI, later Lightspeed Research (Kantar)
+        sub_title: Cloud Architect and Software Delivery Engineer
+        caption: 2018 – 2019
+        description: | # this will include new lines to allow paragraphs
+          Defined and implemented the cloud architecture and software delivery platform for Kantar's "new ways of working" programme on AWS, then worked inside each team in turn to drive adoption and adjust the tooling and documentation to what they needed. The result was a working continuous deployment model across the teams.
+
+          • Infrastructure as code with serverless.com and CloudFormation; build, test and deployment pipelines on CodePipeline and CodeBuild; ECS and Docker for stateful services, Lambda (Python), SNS and API Gateway for stateless ones
+
+      - layout: left
+        title: GMI, later Lightspeed Research (Kantar)
+        sub_title: Architect and Technical Lead
+        caption: 2013 – 2018
+        description: | # this will include new lines to allow paragraphs
+          After the sale and merger, led the team that bootstrapped a microservices architecture to integrate the existing monoliths and expose the core systems through RESTful APIs, then led the move from a hosted data centre into AWS ECS, introducing Docker and cloud practices to the team.
+
+          • Scala and Play microservices with Couchbase; Docker, ECS and CloudFormation; Jenkins, Puppet and behaviour-driven testing
 
       - layout: left
         title: Global Market Insite (GMI)
-        sub_title: Team Lead
-        caption: 2004 - 2017
-        quote: >
-          GMI era: growth, consolidation, sale
+        sub_title: Team Lead, Hungary then Vancouver
+        caption: 2004 – 2013
         description: | # this will include new lines to allow paragraphs
-          I led teams to implement and deliver multiple panel management solutions operated in a SaaS model. Spearheaded the adoption of Continuous Integration, test automation through mentoring and sensible task assignments.
-          
-          • Web applications - <mark>LAMP stack</mark>
-          • Behavior Driven Development adoption - <mark>behat</mark>, <mark>Selenium</mark>
-          • Continuous Integration adoption - <mark>phpUnderControl</mark>, <mark>PHPUnit</mark>
-          • Fully automated distributed build, deployment and configuration management system - <mark>GNU make</mark>, <mark>RPM</mark>
+          Led teams delivering panel management software operated as SaaS, in Hungary until 2007 and in Vancouver from then on. Introduced continuous integration, behaviour-driven testing and a fully automated build and deployment system to the engineering organisation.
 
-  - title: Other Projects # Title for the section
+          • LAMP stack web applications; Behat, Selenium and PHPUnit; GNU make and RPM-based build and deployment
+
+      - layout: left
+        title: Global Market Insite (GMI)
+        sub_title: Software Developer, Hungary
+        caption: 2000 – 2003
+        description: | # this will include new lines to allow paragraphs
+          Built the original survey sampling engine and web interface in GMI's start-up years, then a high-volume mail-merge engine for survey invitations that remained in use for over a decade.
+
+  - title: Leadership Outside Work # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
@@ -118,57 +165,51 @@ content:
           - title: vancouversouthsiders.ca
             icon: fas fa-globe
             url: https://vancouversouthsiders.ca
-        caption: 2011 - Present
+        caption: 2011 – present
         quote: >
-          President and Secretary of Vancouver Whitecaps' largest supporter group
+          Fifteen years in the leadership of the Vancouver Whitecaps' largest supporter group
         description: | # this will include new lines to allow paragraphs
-          Currently serving as Club Secretary and President of this volunteer organization. Over the years I have grown to be the nucleus of our leadership, representing the group in the media and in negotiations with the club.
-          
-          • Custom membership system with payment integration - <mark>PHP Symfony</mark>, <mark>MongoDB</mark>, <mark>Paypal</mark>, <mark>Stripe</mark>
+          Past President and Club Secretary of this volunteer organisation, and still closely involved. Over the years I have represented the group in negotiations with the club's front office and in the media, organised group ticketing and away travel, and run the group's IT, including a custom membership system with payment integration (PHP Symfony, MongoDB, PayPal, Stripe).
 
+  - title: Other Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
       - layout: top-middle
         title: MLab Research
-        link: https://mlabresearch.org
-        caption: 2013 - 2016
-        additional_links:
-          - title: mlabresearch.org
-            icon: fas fa-globe
-            url: https://mlabresearch.org
+        caption: 2013 – 2016
         quote: >
-          Research platform for academia - University of Florida
+          Research data-collection platform for the University of Florida
         description: | # this will include new lines to allow paragraphs
-          Designed, implemented and delivered a full software project: research platform for academia. Includes the administrative backend, frontend with Android and iOS apps for sensory data collection.
-          
-          • <mark>PHP Symfony</mark>, <mark>MongoDB</mark>, <mark>Android</mark>, <mark>iOS</mark>
+          Designed, built and delivered a research platform for academic studies: an administrative backend, a web frontend, and Android and iOS apps for collecting sensor data from participants (PHP Symfony, MongoDB, Android, iOS).
 
       - layout: top-middle
-        title: Open Source Contributions
+        title: Open Source
         additional_links:
           - title: AWS ECS CLI
             icon: fab fa-github
             url: https://github.com/aws/amazon-ecs-cli
+        caption: 2017
         description: | # this will include new lines to allow paragraphs
-          Various contributions to open source projects and personal projects:
-          
-          • 2017: Small bugfix for AWS <mark>ecs cli</mark> - <mark>golang</mark>
-          • 2009: Multicall buzzer - <mark>Google App Engine (GoLang)</mark>, <mark>Twilio</mark>
+          Merged contribution to AWS's ECS CLI (Go).
 
   - title: Skills Summary
     layout: text
     content: | # this will include new lines to allow paragraphs
-      **Languages:** <mark>NodeJS</mark>, <mark>Python</mark>, <mark>Scala</mark>, <mark>PHP</mark>, <mark>JavaScript</mark>, <mark>Golang</mark>
-      
-      **Cloud & DevOps:** <mark>AWS</mark>, <mark>serverless.com</mark>, <mark>Docker</mark>, <mark>Jenkins</mark>, <mark>Puppet</mark>
-      
-      **Databases:** <mark>RDS Aurora</mark>, <mark>DynamoDB</mark>, <mark>Couchbase</mark>, <mark>MySQL</mark>, <mark>MongoDB</mark>, <mark>PostgreSQL</mark>
-      
-      **Frameworks:** <mark>Play (Scala)</mark>, <mark>Symfony (PHP)</mark>, <mark>Lambda</mark>, <mark>API Gateway</mark>
-      
-      **Methodologies:** <mark>Scrum</mark>, <mark>Agile</mark>, <mark>BDD</mark>, <mark>CI/CD</mark>
-      
-      **Industries:** Oil & Gas, Energy, IoT, Methane, Market Research, Administrative, Cloud Architecture
-      
-      **Languages:** English (fluent), Hungarian (native), German (basic)
+      **Architecture and platform:** <mark>multitenant SaaS</mark>, <mark>GraphQL federation</mark>, serverless on AWS, authorization models (CASL, Cedar), <mark>architecture decision records</mark>, C4 modelling
+
+      **AI and agentic engineering:** <mark>AI strategy and governance</mark>, tool evaluation, <mark>Claude Code</mark> plugin authoring (skills, agents, hooks, MCP servers), agentic development process design and training
+
+      **Cloud and delivery:** <mark>AWS</mark>, <mark>Terraform / OpenTofu</mark>, Spacelift, GitHub Actions, Serverless Framework, Docker, <mark>CI/CD</mark>
+
+      **Languages and data:** <mark>TypeScript / Node.js</mark>, Python, Scala, PHP, Kotlin; DynamoDB, PostgreSQL, Dagster, DuckDB
+
+      **Security and compliance:** identity and access management, SOC 2 preparation, ISO 27001 participation
+
+      **Leadership:** architecture team lead, six direct reports across architecture, platform and IT/security, performance reviews, onboarding plans, workshops and internal talks
+
+      **Industries:** energy and heavy industry, emissions and decarbonisation, IoT, market research
+
+      **Spoken languages:** English (fluent), Hungarian (native), German (basic)
 
 # Footer
 footer_show_references: true
